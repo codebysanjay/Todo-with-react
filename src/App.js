@@ -1,5 +1,6 @@
 import React from "react";
-const { default: TodoApp } = require("./components/TodoApp/TodoApp");
+import Sample from "./components/TodoApp/sample";
+import TodoApp from "./components/TodoApp/TodoApp";
 
 export default ()=><TodoApp/>;
 

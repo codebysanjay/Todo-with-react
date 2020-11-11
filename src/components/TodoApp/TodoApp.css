@@ -46,8 +46,12 @@ ul li {
   color: #033848;
   display: flex;
 }
-ul li i {
+ul li div i {
+  margin-left: 10px;
+
+  cursor: pointer;
+}
+ul li div {
   text-align: right;
   flex: 1;
-  cursor: pointer;
 }
