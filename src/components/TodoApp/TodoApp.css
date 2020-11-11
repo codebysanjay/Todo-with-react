@@ -1,0 +1,53 @@
+body {
+  margin: 0;
+  background-color: rgb(6, 126, 106);
+  font-family: sans-serif;
+}
+
+h1 {
+  margin: 0;
+  padding: 15px;
+  margin-bottom: 15px;
+  color: #083c51;
+  text-shadow: 0 5px 5px #2cfac6;
+}
+.todo-container {
+  width: 350px;
+  margin: auto;
+  text-align: center;
+  margin-top: 30px;
+}
+.input-section {
+  background-color: #23e8c3b5;
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 0 3px 2px #0fc3fbcc;
+}
+.input-section input {
+  border-radius: 8px;
+  border: 1px solid rgb(24, 255, 197);
+  width: 100%;
+  padding: 10px;
+  box-sizing: border-box;
+  background-color: #00f3ff;
+}
+ul {
+  padding: 0px;
+  text-align: left;
+}
+ul li {
+  box-shadow: 0 3px 2px #0fc3fbcc;
+  list-style: none;
+  text-align: left;
+  background-color: #23e8c3b5;
+  padding: 15px;
+  border-radius: 8px;
+  margin-bottom: 10px;
+  color: #033848;
+  display: flex;
+}
+ul li i {
+  text-align: right;
+  flex: 1;
+  cursor: pointer;
+}
