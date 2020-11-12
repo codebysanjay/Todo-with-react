@@ -4,7 +4,7 @@ import "./TodoApp.css";
 export default class TodoApp extends Component {
   state = {
     input: "",
-    items: []
+    items: [],
   };
 
   handleChange = (event) => {
@@ -32,7 +32,10 @@ export default class TodoApp extends Component {
   };
 
   setValue = (event) => {
-    this.state.items[event] = window.prompt("Edit the task and save.", this.state.items[event]);
+    this.state.items[event] = window.prompt(
+      "Edit the task and save.",
+      this.state.items[event]
+    );
     this.setState({
       items: this.state.items,
     });
