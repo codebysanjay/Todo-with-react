@@ -1,0 +1,9 @@
+div h1{
+    color: blanchedalmond;
+    /* text-align: center; */
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    text-shadow: 0 5px 5px #191a1a;
+
+}
